@@ -1,0 +1,1246 @@
+.At1 {
+  background: #b5e3b7;
+}
+
+.Ut1 {
+  background: #b5cce3;
+}
+
+.Rt1 {
+  background: #ccb5e3;
+}
+
+.APt1 {
+  background: #e3b5b5;
+}
+
+.At2 {
+  background: #90d594;
+}
+
+.Ut2 {
+  background: #90b3d5;
+}
+
+.Rt2 {
+  background: #b390d5;
+}
+
+.APt2 {
+  background: #d59090;
+}
+
+.At3 {
+  background: #6bc770;
+}
+
+.Ut3 {
+  background: #6b99c7;
+}
+
+.Rt3 {
+  background: #996bc7;
+}
+
+.APt3 {
+  background: #c76b6b;
+}
+
+.At4 {
+  background: #46b94c;
+}
+
+.Ut4 {
+  background: #4680b9;
+}
+
+.Rt4 {
+  background: #8046b9;
+}
+
+.APt4 {
+  background: #b94646;
+}
+
+.At5 {
+  background: #38943d;
+}
+
+.Ut5 {
+  background: #386694;
+}
+
+.Rt5 {
+  background: #663894;
+}
+
+.APt5 {
+  background: #943838;
+}
+
+.At6 {
+  background: #2a6f2e;
+}
+
+.Ut6 {
+  background: #2a4d6f;
+}
+
+.Rt6 {
+  background: #4d2a6f;
+}
+
+.APt6 {
+  background: #6f2a2a;
+}
+
+.At7 {
+  background: #1c4a1e;
+}
+
+.Ut7 {
+  background: #1c334a;
+}
+
+.Rt7 {
+  background: #331c4a;
+}
+
+.APt7 {
+  background: #4a1c1c;
+}
+
+.At8 {
+  background: #0e250f;
+}
+
+.Ut8 {
+  background: #0e1a25;
+}
+
+.Rt8 {
+  background: #1a0e25;
+}
+
+.APt8 {
+  background: #250e0e;
+}
+
+.Att1 {
+  color: #b5e3b7;
+}
+
+.Utt1 {
+  color: #b5cce3;
+}
+
+.Rtt1 {
+  color: #ccb5e3;
+}
+
+.APtt1 {
+  color: #e3b5b5;
+}
+
+.Att2 {
+  color: #90d594;
+}
+
+.Utt2 {
+  color: #90b3d5;
+}
+
+.Rtt2 {
+  color: #b390d5;
+}
+
+.APtt2 {
+  color: #d59090;
+}
+
+.Att3 {
+  color: #6bc770;
+}
+
+.Utt3 {
+  color: #6b99c7;
+}
+
+.Rtt3 {
+  color: #996bc7;
+}
+
+.APtt3 {
+  color: #c76b6b;
+}
+
+.Att4 {
+  color: #46b94c;
+}
+
+.Utt4 {
+  color: #4680b9;
+}
+
+.Rtt4 {
+  color: #8046b9;
+}
+
+.APtt4 {
+  color: #b94646;
+}
+
+.Att5 {
+  color: #38943d;
+}
+
+.Utt5 {
+  color: #386694;
+}
+
+.Rtt5 {
+  color: #663894;
+}
+
+.APtt5 {
+  color: #943838;
+}
+
+.Att6 {
+  color: #2a6f2e;
+}
+
+.Utt6 {
+  color: #2a4d6f;
+}
+
+.Rtt6 {
+  color: #4d2a6f;
+}
+
+.APtt6 {
+  color: #6f2a2a;
+}
+
+.Att7 {
+  color: #1c4a1e;
+}
+
+.Utt7 {
+  color: #1c334a;
+}
+
+.Rtt7 {
+  color: #331c4a;
+}
+
+.APtt7 {
+  color: #4a1c1c;
+}
+
+.Att8 {
+  color: #0e250f;
+}
+
+.Utt8 {
+  color: #0e1a25;
+}
+
+.Rtt8 {
+  color: #1a0e25;
+}
+
+.APtt8 {
+  color: #250e0e;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100vw;
+  -webkit-transition: background 1s, color 1s;
+  transition: background 1s, color 1s;
+}
+
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 10px;
+  -webkit-transition: background .75s;
+  transition: background .75s;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 10px;
+}
+
+#header {
+  width: calc(100% - 20px);
+  height: 36px;
+  display: -ms-grid;
+  display: grid;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.322) 0 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.322) 0 10px 10px;
+  -ms-grid-columns: 120px calc(100% - 150px) 30px;
+      grid-template-columns: 120px calc(100% - 150px) 30px;
+  -ms-grid-rows: 30px 6px;
+      grid-template-rows: 30px 6px;
+      grid-template-areas: "selves IDs menu" "progress progress progress";
+}
+
+#header div:nth-child(1) {
+  width: 120px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: selves;
+}
+
+#header div:nth-child(1) div {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  -webkit-transition: text-shadow .75s, -webkit-box-shadow .75s;
+  transition: text-shadow .75s, -webkit-box-shadow .75s;
+  transition: box-shadow .75s, text-shadow .75s;
+  transition: box-shadow .75s, text-shadow .75s, -webkit-box-shadow .75s;
+}
+
+#header div:nth-child(1) div a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+#header div:nth-child(1) div:hover {
+  -webkit-box-shadow: white 0 0 10px;
+          box-shadow: white 0 0 10px;
+  -webkit-transform: translateZ(500px);
+          transform: translateZ(500px);
+  text-shadow: white 0 0 3px;
+}
+
+#header #IDs {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: IDs;
+  -ms-grid-rows: 16px 14px;
+      grid-template-rows: 16px 14px;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: "Name", "MemberID";
+}
+
+#header #IDs p {
+  margin: 0;
+  text-align: right;
+  margin-right: 4px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#header #IDs p:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Name;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#header #IDs p:nth-child(2) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: MemberID;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+#header #IDs a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: text-shadow .75s, color .75s;
+  transition: text-shadow .75s, color .75s;
+}
+
+#header #IDs a:hover {
+  text-shadow: white 0 0 2px;
+  color: white;
+}
+
+#header #Menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: menu;
+}
+
+#header #Menu span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+#header #Progress {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: progress;
+  -webkit-column-span: 3;
+          column-span: 3;
+}
+
+#header #dropdown {
+  position: fixed;
+  z-index: 10;
+  display: -ms-grid;
+  display: grid;
+  height: 20px;
+  overflow: hidden;
+  width: 20px;
+  top: 15px;
+  -webkit-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+  right: 15px;
+  border-radius: 5px;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 30px calc(100% - 60px) 30px;
+      grid-template-rows: 30px calc(100% - 60px) 30px;
+      grid-template-areas: "closer" "scroller" "signout";
+}
+
+#header #dropdown div {
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 30px;
+  -webkit-transition: background .75s, height 1s;
+  transition: background .75s, height 1s;
+}
+
+#header #dropdown #navcloser {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: closer;
+  color: rgba(255, 255, 255, 0);
+  border-radius: 5px 5px 0 0;
+  padding-left: 10px;
+  -webkit-transition: color 1.5s, background .75s;
+  transition: color 1.5s, background .75s;
+  width: calc(100% - 10px);
+  cursor: pointer;
+}
+
+#header #dropdown #scroller::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  display: none;
+}
+
+#header #dropdown #scroller {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: scroller;
+  overflow-y: auto;
+  overflow-x: hidden;
+  list-style-type: none;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  -ms-grid-rows: 45px auto;
+      grid-template-rows: 45px auto;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: "navTab" "navBody";
+  padding: 0;
+  left: 0;
+}
+
+#header #dropdown #scroller #navTab {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: navTab;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-transition: background 1s, height 1s, margin 1s;
+  transition: background 1s, height 1s, margin 1s;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#header #dropdown #scroller #navTab::-webkit-scrollbar {
+  display: none;
+}
+
+#header #dropdown #scroller #navTab span {
+  font-size: 16px;
+  line-height: 21px;
+  height: 23px;
+  margin: 20px 0 0 5px;
+  padding: 2px 10px;
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+#header #dropdown #scroller #navTab span:last-child {
+  margin-right: 20px;
+}
+
+#header #dropdown #scroller #navigation {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: navBody;
+  display: none;
+}
+
+#header #dropdown #scroller #customize {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: navBody;
+  display: none;
+}
+
+#header #dropdown #scroller #connections {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: navBody;
+  display: none;
+}
+
+#header #dropdown #scroller #connections form {
+  width: calc(100% - 20px);
+  margin: 10px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  overflow: hidden;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 35px 100px auto 35px;
+      grid-template-rows: 35px 100px auto 35px;
+      grid-template-areas: "header" "content" "access" "footer";
+}
+
+#header #dropdown #scroller #connections form header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: 35px auto 80px;
+      grid-template-rows: 35px;
+      grid-template-areas: "rank name update";
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: rank;
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(1) span {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: name;
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(2) h3 {
+  line-height: 35px;
+  font-size: 18px;
+  margin: 0 5px 0 5px;
+  padding: 0;
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: update;
+  font-family: arial;
+}
+
+#header #dropdown #scroller #connections form header span:nth-child(3) div {
+  line-height: 25px;
+  font-size: 14px;
+  margin: 5px;
+  width: 70px;
+  height: 25px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#header #dropdown #scroller #connections form .connUsers {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: content;
+}
+
+#header #dropdown #scroller #connections form .accessInput {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: access;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding: 5px;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#header #dropdown #scroller #connections form .accessInput label {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  width: calc(auto + 10px);
+  margin: 5px;
+  padding: 0 5px 0 35px;
+}
+
+#header #dropdown #scroller #connections form .accessInput label input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px 0 0;
+  z-index: 1;
+  display: float;
+  float: left;
+  background: white;
+  cursor: pointer;
+}
+
+#header #dropdown #scroller #connections form .accessInput label input:checked {
+  background: none;
+}
+
+#header #dropdown #scroller #connections form .accessInput label span {
+  position: absolute;
+  display: inline-block;
+  background: orange;
+  left: 0px;
+  z-index: 0;
+  width: 25px;
+  height: 25px;
+}
+
+#header #dropdown #scroller #connections form footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: 200px auto;
+      grid-template-rows: 35px;
+      grid-template-areas: "counter editor";
+}
+
+#header #dropdown #scroller #connections form footer .connAccessTab {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: counter;
+}
+
+#header #dropdown #scroller #connections form footer .connAccessTab div {
+  overflow: hidden;
+  border-radius: 5px;
+  display: inline-block;
+  width: 170px;
+  height: 25px;
+  margin: 5px;
+}
+
+#header #dropdown #scroller #connections form footer .connAccessTab div span {
+  width: 70px;
+  text-align: center;
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: float;
+  border-radius: 5px;
+  float: left;
+}
+
+#header #dropdown #scroller #connections form footer .connAccessTab div div {
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  width: 90px;
+  padding: 0px 5px 0 5px;
+  display: float;
+  float: right;
+  background: none;
+  margin: 0;
+}
+
+#header #dropdown #scroller #connections form footer .connAccessTab div div:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  cursor: default;
+}
+
+#header #dropdown #scroller #connections form footer .accessEdit {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: editor;
+  color: red;
+  text-align: right;
+  font-family: arial;
+}
+
+#header #dropdown #scroller #connections form footer .accessEdit span {
+  width: 70px;
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#header #dropdown #scroller button {
+  display: block;
+  width: 90px;
+  height: 35px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 15px 10px calc(100% - 105px);
+}
+
+#header #dropdown #signout {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: signout;
+  border-radius: 0 0 5px 5px;
+  padding-left: 10px;
+  width: calc(100% - 10px);
+  -webkit-transition: color 1s, background .75s;
+  transition: color 1s, background .75s;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  display: block;
+  top: 56px;
+}
+
+#themeSelect, #accentSelect {
+  width: 280px;
+  top: 100px;
+  margin: 10px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 280px;
+      grid-template-columns: 280px;
+  -ms-grid-rows: 25px 130px auto 25px;
+      grid-template-rows: 25px 130px auto 25px;
+      grid-template-areas: "header" "body" "help" "footer";
+}
+
+#themeSelect header, #accentSelect header {
+  width: 280px;
+  height: 25px;
+  position: relative;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 255px 25px;
+      grid-template-columns: 255px 25px;
+      grid-template-areas: "title btn";
+  border-radius: 5px 5px 0 0;
+  left: 0;
+  top: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#themeSelect header h1, #accentSelect header h1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: title;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 0 0 0 10px;
+  color: white;
+  line-height: 25px;
+  margin: 0;
+}
+
+#themeSelect header #themeHelpOpen, #themeSelect header #accentHelpOpen, #accentSelect header #themeHelpOpen, #accentSelect header #accentHelpOpen {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: btn;
+  border: none;
+  display: block;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  background: white;
+  border-radius: 5px;
+  margin: 2.5px;
+  padding: 0;
+  line-height: 18px;
+}
+
+#themeSelect div, #accentSelect div {
+  width: 280px;
+  height: 130px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: body;
+  padding-left: 0;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80px 200px;
+      grid-template-columns: 80px 200px;
+      grid-template-areas: "pallette input";
+}
+
+#themeSelect div ul, #accentSelect div ul {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: pallette;
+  list-style-type: none;
+  margin: 0;
+  left: 0;
+  padding: 0;
+}
+
+#themeSelect div ul li, #accentSelect div ul li {
+  width: 80px;
+  height: 16px;
+}
+
+#themeSelect div ul li:last-child, #accentSelect div ul li:last-child {
+  height: 18px;
+}
+
+#themeSelect div main, #accentSelect div main {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: input;
+  display: -ms-grid;
+  display: grid;
+  padding: 2.5px;
+  top: 0;
+  -ms-grid-columns: 195px;
+      grid-template-columns: 195px;
+  -ms-grid-rows: 25px 50px 50px;
+      grid-template-rows: 25px 50px 50px;
+      grid-template-areas: "select" "saturation" "hue";
+}
+
+#themeSelect div main select, #accentSelect div main select {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: select;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 2.5px 5px;
+}
+
+#themeSelect div main select option, #accentSelect div main select option {
+  outline: none;
+}
+
+#themeSelect div main select option:disabled, #accentSelect div main select option:disabled {
+  color: white;
+}
+
+#themeSelect div main section, #accentSelect div main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 140px 55px;
+      grid-template-columns: 140px 55px;
+  -ms-grid-rows: 25px 25px;
+      grid-template-rows: 25px 25px;
+      grid-template-areas: "heading output" "slider slider";
+}
+
+#themeSelect div main section label, #accentSelect div main section label {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: heading;
+  width: 130px;
+  font-size: 15px;
+  height: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 700;
+  margin: 2.5px;
+  padding: 0 0 0 5px;
+}
+
+#themeSelect div main section h2, #accentSelect div main section h2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: output;
+  font-size: 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  text-align: center;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  margin: 2.5px;
+  letter-spacing: 1px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#themeSelect div main section input[type=range], #accentSelect div main section input[type=range] {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: slider;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 20px;
+  margin: 2.5px;
+  border-radius: 5px;
+}
+
+#themeSelect div main section input[type=range]::-webkit-slider-thumb, #accentSelect div main section input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  border: 0;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  background: white;
+}
+
+#themeSelect div main .saturation, #accentSelect div main .saturation {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: saturation;
+}
+
+#themeSelect div main .hue, #accentSelect div main .hue {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: hue;
+}
+
+#themeSelect .colorSelectHelp, #accentSelect .colorSelectHelp {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: help;
+  width: 275px;
+  height: 0px;
+  overflow: hidden;
+  padding: 2.5px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#themeSelect .colorSelectHelp section, #accentSelect .colorSelectHelp section {
+  width: 260px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: block;
+  margin: 2.5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#themeSelect .colorSelectHelp section h4, #accentSelect .colorSelectHelp section h4 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 0;
+}
+
+#themeSelect .colorSelectHelp section h5, #accentSelect .colorSelectHelp section h5 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(2) figure, #accentSelect .colorSelectHelp section:nth-child(2) figure {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  width: 260px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: block;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(2) figure span, #accentSelect .colorSelectHelp section:nth-child(2) figure span {
+  width: 110px;
+  float: left;
+  text-align: left;
+  font-size: 14px;
+  height: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 25px;
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(2) figure ul, #accentSelect .colorSelectHelp section:nth-child(2) figure ul {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 140px;
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 20px 20px 20px 20px 20px 20px 20px;
+      grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+  -ms-grid-rows: 25px;
+      grid-template-rows: 25px;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(2) figure ul li, #accentSelect .colorSelectHelp section:nth-child(2) figure ul li {
+  width: 20px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(2) figure ul li:last-child, #accentSelect .colorSelectHelp section:nth-child(2) figure ul li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div, #accentSelect .colorSelectHelp section:nth-child(3) div {
+  display: -ms-grid;
+  display: grid;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 0;
+  -ms-grid-columns: calc(260px/3) calc(260px/3) calc(260px/3);
+      grid-template-columns: calc(260px/3) calc(260px/3) calc(260px/3);
+  -ms-grid-rows: 30px 30px 30px;
+      grid-template-rows: 30px 30px 30px;
+      grid-template-areas: "btn1 btn3 btn5" "gradient gradient gradient" "btn2 btn4 btn6";
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure, #accentSelect .colorSelectHelp section:nth-child(3) div figure {
+  border: 0;
+  border-radius: 5px;
+  width: 80px;
+  line-height: 25px;
+  text-align: center;
+  height: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 2.5px;
+  display: inline-block;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(1), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: btn1;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(2), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(2) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: btn2;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(3), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: btn3;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(5), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: btn4;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(6), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: btn5;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(4), #accentSelect .colorSelectHelp section:nth-child(3) div figure:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: btn6;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(3) div img, #accentSelect .colorSelectHelp section:nth-child(3) div img {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: gradient;
+  width: 255px;
+  border-radius: 5px;
+  height: 25px;
+  margin: 2.5px;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(4) img, #accentSelect .colorSelectHelp section:nth-child(4) img {
+  display: block;
+  width: 250;
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#themeSelect .colorSelectHelp section:nth-child(4) figure, #accentSelect .colorSelectHelp section:nth-child(4) figure {
+  border: 0;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin: 2px 1px;
+  height: 20px;
+  padding: 2.5px 10px 2.5px 10px;
+}
+
+#themeSelect footer, #accentSelect footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  height: 30px;
+  width: 280px;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#themeSelect footer #tLightTitle, #themeSelect footer #tSatTitle, #themeSelect footer #tHueTitle, #themeSelect footer #aLightTitle, #themeSelect footer #aSatTitle, #themeSelect footer #aHueTitle, #accentSelect footer #tLightTitle, #accentSelect footer #tSatTitle, #accentSelect footer #tHueTitle, #accentSelect footer #aLightTitle, #accentSelect footer #aSatTitle, #accentSelect footer #aHueTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 16;
+  height: 25px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
